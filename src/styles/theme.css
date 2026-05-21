@@ -1,0 +1,24 @@
+/**
+ * Apex Metals design tokens.
+ *
+ * The components use these colors inline for the most part; these CSS variables
+ * exist so anyone extending the site has a single source of truth to reference.
+ */
+:root {
+  --apex-bg: #fafafa;
+  --apex-surface: #ffffff;
+  --apex-ink: #111418;
+  --apex-ink-soft: #37474f;
+  --apex-mute: #607d8b;
+  --apex-line: #e5e7eb;
+  --apex-dark: #1c2025;
+  --apex-dark-line: #2a2f36;
+  --apex-green: #2e7d32;
+  --apex-green-light: #66bb6a;
+}
+
+html,
+body {
+  background: var(--apex-bg);
+  color: var(--apex-ink);
+}
